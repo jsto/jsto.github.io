@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
 
 $blue-darkest: #16193B;
 $blue-darker: #35478C;
@@ -11,6 +11,10 @@ body {
     color: $blue-lightest;
     font-family: Lato, Helvetica, Arial;
     font-weight: 100;
+}
+
+b, strong {
+  font-weight: 300;
 }
 
 #bigbadaboom {
